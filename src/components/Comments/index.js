@@ -4,7 +4,7 @@ import { createCommentAction } from '../../store/actions/actionCreators'
 
 export const Comments = props => {
   return (
-    <div style={{ border: '1px solid black' }}>
+    <div>
       <input value="text"
         onClick={() => {
           const action = createCommentAction({ text: "comment", isDone: true })
